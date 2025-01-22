@@ -35,3 +35,61 @@ body {
     text-align: center;
     padding: 24px;
 }
+
+#winter-wonders-heading {
+    font-family: monospace;
+    text-align: center;
+}
+
+#prussian-blue-area {
+    background-color: #003153;
+    color:white;
+    font-family:monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#ash-gray-area {
+    background-color: #C5D8D1;
+    color:black;
+    font-family:monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#light-orange-area {
+    background-color: #F4D1AE;
+    color:black;
+    font-family:monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#spring-time-heading {
+    font-family: cursive;
+    text-align: center;
+}
+
+#rose-taupe-area {
+    background-color: #7C606B ;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#persian-pink-area {
+    background-color: #EB7BC0;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#champagne-pink-area {
+    background-color: #EED5C2;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
