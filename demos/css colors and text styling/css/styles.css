@@ -1,0 +1,35 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0px;
+font-family: sans-serif;
+}
+
+#first-paragraph {
+color:blue;
+background-color:orange;
+font-style:italic;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#second-paragraph {
+color:red;
+background-color:pink;
+font-size:24px;
+text-decoration:line-through;
+}
+
+#third-paragraph {
+color:orange;
+background-color:green;
+text-align:center;
+text-decoration:overline;
+}
+
+#bold-paragraph {
+font-weight:bold;
+background-color:darkblue;
+text-decoration:underline;
+}
