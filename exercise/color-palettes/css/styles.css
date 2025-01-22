@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#fall-joy-heading {
+    font-family: serif;
+    text-align: center;
+}
+
+#apple-green-area {
+    background-color: #8EA604;
+    color:black;
+    font-family:serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#gamboge-area {
+    background-color: #EC9F05;
+    color:black;
+    font-family: serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#rust-area {
+    background-color:#BF3100 ;
+    color:black;
+    font-family: serif;
+    text-align: center;
+    padding: 24px;
+}
