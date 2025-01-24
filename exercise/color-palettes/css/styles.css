@@ -14,23 +14,23 @@ body {
 
 #apple-green-area {
     background-color: #8EA604;
-    color:black;
-    font-family:serif;
+    color: black;
+    font-family: serif;
     text-align: center;
     padding: 24px;
 }
 
 #gamboge-area {
     background-color: #EC9F05;
-    color:black;
+    color: black;
     font-family: serif;
     text-align: center;
     padding: 24px;
 }
 
 #rust-area {
-    background-color:#BF3100 ;
-    color:black;
+    background-color: #BF3100 ;
+    color: black;
     font-family: serif;
     text-align: center;
     padding: 24px;
@@ -43,24 +43,24 @@ body {
 
 #prussian-blue-area {
     background-color: #003153;
-    color:white;
-    font-family:monospace;
+    color: white;
+    font-family: monospace;
     text-align: center;
     padding: 24px;
 }
 
 #ash-gray-area {
     background-color: #C5D8D1;
-    color:black;
-    font-family:monospace;
+    color: black;
+    font-family: monospace;
     text-align: center;
     padding: 24px;
 }
 
 #light-orange-area {
     background-color: #F4D1AE;
-    color:black;
-    font-family:monospace;
+    color: black;
+    font-family: monospace;
     text-align: center;
     padding: 24px;
 }
