@@ -9,8 +9,8 @@
 
 .tetris-block {
     padding: 35px ;
-    border-width:10px ;
-    border-style:solid ;
+    border-width: 10px ;
+    border-style: solid ;
     display: inline-block;
 }
 
@@ -21,7 +21,7 @@
 } 
 
 .hollywood {
-    background-color:#EF798A;
+    background-color: #EF798A;
     border-color:  #EC058E;
 }
 
@@ -32,13 +32,13 @@
 
 .space {
     background-color: #222E50;
-    border-color:#62BBC1 ;
+    border-color: #62BBC1 ;
     border-radius: 8px 60px;
 }
 
 .crimson {
     background-color: #D72638;
-    border-color:#550C18;
+    border-color: #550C18;
     border-radius: 75px 24px;
 }
 
