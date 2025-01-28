@@ -1,0 +1,63 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.image-first {
+    display: block;
+}
+
+.first-image {
+    border: solid palevioletred 6px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.first-image-border {
+    border: solid red 3px;
+}
+
+.image-second {
+    display: block;
+}
+
+.second-image {
+    border: solid orange 6px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.second-image-border {
+    border: solid brown 3px;
+}
+
+.image-third {
+    display: block;
+}
+
+.third-image {
+    border: solid greenyellow 6px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.third-image-border {
+    border: solid blanchedalmond 3px;
+}
+
+.featured-text {
+    border: solid 2px;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+.featured-text-2 {
+    background-color: aqua;
+    padding: 2px;
+    color: blue;
+    border-radius: 100px;
+}
