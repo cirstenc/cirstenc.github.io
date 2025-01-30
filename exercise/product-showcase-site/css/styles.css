@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.red-skittles {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.red {
+    font-size: x-large;
+}
+
+.purple-gummies {
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.purple {
+    font-size: x-large;
+}
+
+.pink-gummies {
+    background: rgb(165, 72, 165);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.pink {
+    font-size: x-large;
+}
+
+.purple-skittles {
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.reg-purple {
+    font-size: x-large;
+}
