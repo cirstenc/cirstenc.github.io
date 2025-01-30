@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    background-color: aqua;
+    width: 50%;
+    min-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.single-column-2 {
+    background-color: aqua;
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container {
+    background-color: lightgreen;
+    padding: 48px 0px;
+}
