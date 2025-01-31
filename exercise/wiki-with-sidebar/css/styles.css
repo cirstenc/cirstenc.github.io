@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#music-genre {
+    display: flex;
+    margin: 48px;
+}
+
+#sidebar {
+    width: 250px;
+    padding: 24px;
+    border-right: 2px solid;
+    margin: 48px;
+}
+
+#sidebar h3 {
+    border-bottom: 2px solid;
+}
+
+#sidebar ul li {
+    padding: 4px 0px;
+}
+
+#sidebar ul ,
+ol {
+    list-style-type: none;
+    text-align: left;
+    padding: 0px;
+}
+
+#sidebar ol {
+    text-align: right;
+}
+
+#music-content h1 , 
+h2 {
+    border-bottom: 2px solid;
+}
