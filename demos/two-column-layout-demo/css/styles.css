@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: lightblue;
+    flex: 1;
+    order: 2;
+}
+
+#main-content {
+    background-color: lightgreen;
+    flex: 1;
+    order: 1;
+}
