@@ -14,11 +14,53 @@ body {
 }
 
 #sidebar-other {
-    background-color: aqua;
+    grid-area: other;
+}
+
+#sidebar-other h2 {
+    background-color: #AD9B9A;
+    padding: 12px;
+    margin: 0px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+#sidebar-other a {
+    color: #E85D75;
+    text-decoration: none;
+}
+
+#sidebar-other ul {
+    list-style-type: none;
+    border: 1px solid whitesmoke;
+    background-color: rgb(44, 39, 39);
+    margin: 0px 0px 36px;
+    padding: 0px 12px;
+}
+
+#sidebar-other li {
+    border-bottom: 1px solid white;
+    padding: 8px 0px;
+}
+
+#sidebar-hair {
     grid-area: other;
 }
 
 #hair-content {
-    background-color: blue;
     grid-area: hair;
+    padding: 12px;
+    margin: 0px 36px;
+}
+
+#intro {
+    background-color: #E85D75;
+    border: 2px solid black;
+    border-bottom: 5px solid white;
+    margin: 0px 2px 0px 0px;
+    padding: 12px;
+}
+
+#hair-content p {
+    font-weight: bold;
 }
