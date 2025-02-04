@@ -75,8 +75,7 @@ body {
 
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16/9;
-    background: radial-gradient(at top left, crimson, orange);
-    border-radius: 19px;
+    border-radius: 12px;
 }
 
 .metube-item h4 {
@@ -96,16 +95,4 @@ body {
 .metubee-item .video-details {
     margin: 8px;
     font-size: 14px;
-}
-
-#faded {
-    border-radius: 19px;
-}
-
-#barb {
-    border-radius: 19px;
-}
-
-#silk {
-    border-radius: 19px;
 }
