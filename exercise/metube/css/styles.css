@@ -35,13 +35,15 @@ body {
 
 #header #me {
     color: #111111;
+    font-style: oblique;
 }
 
 #header #tube {
     color: white;
-    background-color: red;
-    padding: 4px;
-    border-radius: 12px;
+    background-color: rgb(255, 115, 0);
+    padding: 6px;
+    border-radius: 19px;
+    font-style: italic;
 }
 
 #sidebar ul {
@@ -72,7 +74,7 @@ body {
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16/9;
     background: radial-gradient(at top left, crimson, orange);
-    border-radius: 8px;
+    border-radius: 19px;
 }
 
 .metube-item h4 {
