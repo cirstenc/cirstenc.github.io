@@ -13,6 +13,10 @@ body {
     grid-template-areas: "header header" "sidebar main";
 }
 
+#grid-layout img {
+    border-radius: 2px;
+}
+
 #header {
     grid-area: header;
     padding: 0px 36px;
