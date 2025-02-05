@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.mebay-content {
+    display: grid;
+    grid-template-columns: 250px 2fr 1fr;
+    grid-template-areas: "thumbnails main product";
+}
+
+#thumbnails {
+    grid-area: thumbnails;
+}
+
+#main {
+    grid-area: main;
+}
+
+#product {
+   grid-area: product;
+}
