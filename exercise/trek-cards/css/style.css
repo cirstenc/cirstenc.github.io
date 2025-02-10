@@ -8,3 +8,89 @@
     of the setup.css styling if you do so.
 */
 
+.card-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card-container a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#trek-card-1 {
+    width: 350px;
+    border: 2px solid #ffe4da;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceaaaa;
+    background: linear-gradient(
+        -50deg,
+        #ffdbdb,
+        #fff7f7,
+        #ffc9c9
+    );
+}
+
+#trek-card-1 img {
+    width: 100%;
+    display: block;
+}
+
+#trek-card-2 {
+    width: 350px;
+    border: 2px solid #ffe4da;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceaaaa;
+    background: linear-gradient(
+        -50deg,
+        #ffdbdb,
+        #fff7f7,
+        #ffc9c9
+    );
+}
+
+#trek-card-2 img {
+    width: 100%;
+}
+
+#trek-card-3 {
+    width: 350px;
+    border: 2px solid #ffe4da;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceaaaa;
+    background: linear-gradient(
+        -50deg,
+        #ffdbdb,
+        #fff7f7,
+        #ffc9c9
+    );
+}
+
+#trek-card-3 img {
+    width: 100%;
+}
+
+#trek-card-4 {
+    width: 350px;
+    border: 2px solid #ffe4da;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceaaaa;
+    background-color: rgb(176, 197, 176);
+}
+
+#trek-card-4 img {
+    width: 100%;
+}
+
