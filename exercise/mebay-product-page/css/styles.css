@@ -9,18 +9,101 @@ body {
 
 .mebay-content {
     display: grid;
-    grid-template-columns: 250px 2fr 1fr;
+    grid-template-columns: 250px 1fr 1fr;
     grid-template-areas: "thumbnails main product";
 }
 
 #thumbnails {
     grid-area: thumbnails;
+    padding: 0px 24px;
 }
 
 #main {
     grid-area: main;
+    padding: 0px 36px;
+    text-align: center;
+    margin: 24px;
 }
 
 #product {
     grid-area: product;
+    padding: 0px 12px;
+}
+
+#product h4 {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid blue;
+    transition: 
+        background-color .5s,
+        color .5s;
+    border-radius: 20px;
+}
+
+#product h4:hover {
+    background-color: rgb(231, 230, 230);
+    color: blue;
+}
+
+#product h3 {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: blue;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    transition: 
+        background-color .5s,
+        color .5s;
+    border-radius: 20px;
+}
+
+#product h3:hover {
+    background-color: rgb(90, 90, 243);
+}
+
+#product h5 a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    padding: 12px 14px;
+    background-color: rgb(231, 228, 228);
+    border-radius: 10px;
+}
+
+#product h5 b {
+    font-weight: bold;
+}
+
+#one {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.mebay-m {
+    color: red;
+}
+
+.mebay-e {
+    color: blue;
+}
+
+.mebay-b {
+    color: rgb(255, 230, 0);
+}
+
+.mebay-a {
+    color: rgb(95, 235, 95);
+}
+
+.mebay-y {
+    color: red;
 }
