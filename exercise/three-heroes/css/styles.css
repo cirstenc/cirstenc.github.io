@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/bird.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    position: relative;
+}
+
+#hero-1 h2 {
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    color: white;
+    bottom: 43%;
+}
+
+#hero-1 h4 {
+    font-size: 30px;
+    position: absolute;
+    left: 52%;
+    color: white;
+    bottom: 37%;
+}
+
+#hero-1 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: rgb(167, 44, 44);
+    color: white;
+    text-decoration: none;
+    padding: 29px;
+    position: absolute;
+    left: 55%;
+    bottom: 30%;
+}
+
+#hero-1 a:hover {
+    background-color: rgb(168, 94, 94);
+}
+
+#hero-2 {
+    background-image: url(..//images/pexels-sebastian-422290.jpg);
+    height: 100vh;
+}
+
+#hero-2 h1 {
+    text-align: center;
+    left: 20px;
+}
+
+#hero-2 h3 {
+    text-align: center;
+    left: 40px;
+    bottom: 40%;
+}
+
+#hero-2 a {
+    text-align: center;
+    left: 20px;
+}
