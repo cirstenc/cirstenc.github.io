@@ -7,3 +7,52 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-style-2 {
+    width: 350px;
+    background-color: #fefefe;
+    margin: 48px auto;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+.card-style-2 img {
+    width: 70%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.animagram-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.animagram-header .brand-name {
+    font-size: 25px;
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 25px;
+}
+
+.card-style-2 h2 {
+    margin-bottom: 5px;
+}
+
+.card-style-2 p {
+    display: inline-block;
+    margin-bottom: 40px;
+}
