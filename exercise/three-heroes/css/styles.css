@@ -53,20 +53,80 @@ body {
 #hero-2 {
     background-image: url(..//images/pexels-sebastian-422290.jpg);
     height: 100vh;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
 }
 
 #hero-2 h1 {
     text-align: center;
-    left: 20px;
+    margin-bottom: 40%;
+    color: brown;
 }
 
 #hero-2 h3 {
     text-align: center;
-    left: 40px;
-    bottom: 40%;
+    color: brown;
 }
 
 #hero-2 a {
     text-align: center;
-    left: 20px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: red;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+#hero-2 a:hover {
+    background-color: rgb(177, 54, 54);
+}
+
+#hero-3 {
+    background-image: url(..//images/laughing.avif);
+    height: 100vh;
+    background-size: center center;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-3 h3 {
+    font-size: 72px;
+    color: white;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+}
+
+#hero-3 h5 {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    right: 70%;
+    bottom: 50%;
+}
+
+#hero-3 a {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    right: 80%;
+    bottom: 40%;
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px;
+}
+
+#hero-3 a:hover {
+    background-color: rgb(63, 63, 63);
 }
