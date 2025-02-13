@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url(..//images/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+#hero h1 {
+    text-align: center;
+    position: relative;
+    color: white;
+    left: 45.5%;
+    margin-top: 10%;
+}
+
+#hero a {
+    text-align: center;
+    position: relative;
+    color: white;
+    left: 37.5%;
+    margin-top: 15%;
+}
