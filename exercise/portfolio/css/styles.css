@@ -1,3 +1,6 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -22,7 +25,7 @@ body {
     text-align: center;
     position: relative;
     color: white;
-    left: 45.5%;
+    left: 45.3%;
     margin-top: 10%;
 }
 
@@ -30,6 +33,87 @@ body {
     text-align: center;
     position: relative;
     color: white;
-    left: 37.5%;
+    left: 35.9%;
     margin-top: 15%;
+    text-decoration: none;
+    border: 6px solid black;
+    background-color: black;
+    padding: 14px;
+}
+
+#hero a:hover {
+    background-color: transparent;
+}
+
+#gallery-work {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#gallery-work h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(228, 19, 19);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 20px solid rgb(8, 50, 63);
+    background-color: rgba(255, 235, 205, 0.63);
+    padding: 24px;
+    gap: 24px;
+}
+
+.gallery img {
+    width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-section {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#card {
+    flex: 1;
+    border: 3px solid rgb(8, 50, 63);
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    background-color: rgb(8, 50, 63);
+    border-radius: 19px;
+}
+
+#card h2 {
+    color: rgb(67, 151, 177);
+    font-size: xx-large;
+}
+
+#card p {
+    border: 1px solid blanchedalmond;
+    background-color: blanchedalmond;
+    color: rgb(8, 50, 63);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+#card p:hover {
+    background-color: rgb(255, 178, 148);
+}
+
+.bungee-tint-regular, 
+#hero {
+    font-family: "Bungee Tint", serif;
+    font-weight: 400;
+    font-style: normal;
 }
