@@ -18,6 +18,10 @@ body {
     padding: 0px 24px;
 }
 
+#thumbnails img {
+    margin: 0px 36px;
+}
+
 #main {
     grid-area: main;
     padding: 0px 36px;
@@ -86,6 +90,19 @@ body {
 #one {
     border: 3px solid black;
     border-radius: 10px;
+    size: 5px;
+}
+
+#two {
+    size: 5px;
+}
+
+#three {
+    size: 5px;
+}
+
+#four {
+    size: 5px;
 }
 
 .mebay-m {
