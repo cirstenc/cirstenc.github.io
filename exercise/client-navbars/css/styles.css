@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar-1 {
+    background: linear-gradient(to bottom, #91972A, #3E6D3E);
+    display: flex;
+    justify-content: center;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: #D8D174;
+    padding: 24px;
+    font-size: xx-large;
+}
+
+#navbar-1 #logo {
+    margin-right: 10%;
+}
+
+#navbar-1 #Gallery {
+    justify-content: center;
+}
+
+#navbar-1 #contact {
+    justify-content: center;
+}
+
+#navbar-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    background: linear-gradient( to top,#D76A03,#F5BB00);
+    padding: 24px;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    padding: 12px;
+    color: #792103;
+    font-size: large;
+}
+
+#navbar-2 #name {
+    margin-left: 40%;
+    font-weight: bold;
+}
+
+#navbar-2 .cta-button {
+    background-color: blanchedalmond;
+    color: #792103;
+    border-radius: 24px;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
