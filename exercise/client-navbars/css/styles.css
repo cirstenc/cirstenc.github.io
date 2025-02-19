@@ -15,9 +15,9 @@ body {
 
 #navbar-1 a {
     text-decoration: none;
-    color: #D8D174;
+    color: #ffee03;
     padding: 24px;
-    font-size: xx-large;
+    font-size: 25px;
 }
 
 #navbar-1 #logo {
@@ -33,10 +33,9 @@ body {
 }
 
 #navbar-2 {
+    justify-content: center;
     display: flex;
-    justify-content: flex-start;
-    align-items: start;
-    background: linear-gradient( to top,#D76A03,#F5BB00);
+    background: linear-gradient( to top, #D76A03, #F5BB00);
     padding: 24px;
 }
 
@@ -48,8 +47,8 @@ body {
 }
 
 #navbar-2 #name {
-    margin-left: 40%;
     font-weight: bold;
+    margin-right: 60px;
 }
 
 #navbar-2 .cta-button {
@@ -63,4 +62,5 @@ body {
     text-align: center;
     justify-content: center;
     display: flex;
+    margin-left: 40px;
 }
