@@ -212,19 +212,47 @@ a {
 
 /* TODO: Add your media query code here */
 @media screen and (max-width: 768px) {
-    .nav {
+    #nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav h2 {
+        align-items: center;
+    }
+
+    #hero {
+        height: 300px;
+    }
+
+    #hero h1 {
+        font-size: 50px;
+    }
+    
+    #hero h3 {
+        font-size: 20px;
+    }
+
+    #content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .three-cards {
+        margin-top: 0px;
         flex-direction: column;
         align-items: center;
     }
 
-    .intro {
-        flex-direction: column;
-        gap: 24px;
+    .card {
+        max-width: 300px;
     }
 
-    .three-cards,
-    .two-cards {
+    .two-cards, 
+    .card img {
         display: flex;
         flex-direction: column;
+        height: 250px;
+        align-items: center;
     }
 }
