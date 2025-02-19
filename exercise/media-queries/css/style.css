@@ -211,3 +211,20 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .three-cards,
+    .two-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
