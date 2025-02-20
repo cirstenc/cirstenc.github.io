@@ -456,11 +456,17 @@ body {
     }
 
     #header h1 {
-        font-size: 48px;
+        font-size: 45px;
     }
 
     #nav {
+        display: flex;
         flex-wrap: wrap;
+    }
+
+    #nav a {
+        flex: 180px;
+        flex-direction: column;
     }
 }
 
@@ -479,6 +485,42 @@ body {
         "aside"
         "blog"
         "footer"
-        "bottom"
+        "bottom";
+        align-items: center;
+    }
+
+    #header {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #header h1 {
+        font-size: 30px;
+    }
+
+    #nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #nav a {
+        flex: 100px;
+        flex-direction: row;
+    }
+
+    #shield-image {
+        display: none;
+    }
+
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: 0px;
+        margin: 0px;
+        padding: 0px;
     }
 }
