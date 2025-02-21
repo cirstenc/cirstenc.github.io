@@ -11,16 +11,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-        "card-1 card-2 card-3 card-4";
-    border: 3px solid black;
-    background-color: rgb(189, 189, 189);
-}
-
-#gallery-layout-1 h1 {
-    margin-top: 100px;
-    color: rgb(119, 80, 6);
 }
 
 .card-gallery-1 {
@@ -33,6 +23,11 @@ body {
         background-color 0.5s,
         box-shadow 0.5s,
         transform 0.5s;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "card-1 card-2 card-3 card-4";
+    border: 3px solid black;
+    background-color: rgb(189, 189, 189);
 }
 
 .card-gallery-1 a {
@@ -42,6 +37,10 @@ body {
     border: 3px solid black;
     padding: 12px;
     margin-top: 36px;
+}
+
+.one h1 {
+    color: rgb(180, 120, 7);
 }
 
 .card-gallery-1 img {
@@ -60,8 +59,131 @@ body {
     grid-area: card-3;
 }
 
+#card-4 {
+    grid-area: card-4;
+}
+
 .card-gallery-1:hover {
     background-color: orange;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-10px);
+}
+
+.card-gallery1 {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "card1 card2 card3 card4";
+    background-color: rgb(187, 109, 109);
+}
+
+.two h1 {
+    color: rgb(218, 147, 147);
+}
+
+.card-gallery1 h1 {
+    margin-top: 100px;
+}
+
+.card-gallery1 img {
+    width: 250px;
+}
+
+.card-gallery1 a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.card-gallery1:hover a {
+    background-color: rgb(173, 39, 34);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card1 {
+    grid-area: card1;
+}
+
+#card2 {
+    grid-area: card2;
+}
+
+#card3 {
+    grid-area: card3;
+}
+
+#card4 {
+    grid-area: card4;
+}
+
+.cardgallery1 {
+    position: relative;
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "1card 2card 3card 4card";
+    background-color: rgb(190, 190, 40);
+}
+
+.three h1 {
+    color: rgb(146, 146, 7);
+}
+
+.cardgallery1 a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.cardgallery1 img {
+    width: 130px;
+}
+
+.cardgallery1:hover p {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.cardgallery1 p {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
 }
