@@ -162,6 +162,7 @@ body {
         width: 15px;
         min-width: 400px;
         align-items: center;
+        justify-content: center;
     }
 
     .single-column h2 {
