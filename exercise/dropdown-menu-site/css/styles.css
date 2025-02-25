@@ -187,4 +187,8 @@ body {
         font-size: 15px;
         width: 100px;
     }
+
+    #navbar:first-child .adopt-menu {
+        right: 0px;
+    }
 }
