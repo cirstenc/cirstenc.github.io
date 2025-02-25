@@ -51,6 +51,7 @@ body {
 
 .adopt-menu a {
     background-color: pink;
+    border: 1px solid white;
     width: 100%;
     min-width: 200px;
 }
@@ -90,9 +91,19 @@ body {
     min-width: 500px;
     margin-right: auto;
     margin-left: auto;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 19px;
-    margin-top: 130px;
+    margin-top: 100px;
+}
+
+#poodle {
+    margin-top: 45px;
+}
+
+#background {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 200px;
 }
 
 .single-column h2 {
@@ -159,9 +170,8 @@ body {
 
     .single-column {
         flex-direction: column;
-        width: 15px;
+        width: 10px;
         min-width: 400px;
-        align-items: center;
         justify-content: center;
     }
 
