@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to top, pink, rgb(204, 131, 143));
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar #brand-name {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 42px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+.navbar-options {
+    margin-right: 50px;
+    position: relative;
+    font-size: 22px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to bottom, pink, rgb(204, 131, 143));
+}
+
+.adopt-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visiblity 0.25s;
+}
+
+.adopt-menu a {
+    background-color: pink;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .adopt-menu a:hover {
+    background: rgb(202, 104, 120);
+}
+
+.navbar-options:hover .adopt-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#hero {
+    background-image: url(..//images/group\ of\ dogs.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h2 {
+    margin-right: 25px;
+    font-size: 65px;
+    margin-top: 36px;
+    color: rgb(240, 153, 167);
+    background-color: rgb(202, 104, 120);
+    outline: 3px solid black;
+}
+
+.single-column {
+    text-align: center;
+    background-color: rgb(202, 104, 120);
+    width: 75%;
+    min-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid black;
+    border-radius: 19px;
+    margin-top: 150px;
+}
+
+.single-column h2 {
+    font-weight: bold;
+}
+
+.single-column img {
+    width: 500px;
+    border-radius: 19px;
+    border: 3px solid black;
+}
+
+.single-column a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: pink;
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid pink;
+    border-radius: 21px;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+
+.single-column p {
+    font-weight: bold;
+}
+
+.single-column a:hover {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+
+}
