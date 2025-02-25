@@ -189,6 +189,6 @@ body {
     }
 
     #navbar:first-child .adopt-menu {
-        right: 0px;
+        left: 100px;
     }
 }
