@@ -15,6 +15,11 @@ body {
 
 #navbar h1 {
     color: #6abd45;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
 }
 
 #navbar a {
@@ -26,6 +31,11 @@ body {
     font-size: 20px;
 }
 
+#middle a:hover {
+    background: linear-gradient(to top, #6abd45, #079247);
+}
+
+
 #middle {
     align-items: center;
 }
@@ -34,7 +44,6 @@ body {
     color: #6abd45;
     margin-left: auto;
     font-size: 35px;
-    justify-content: space-between;
 }
 
 #navbar-bottom {
