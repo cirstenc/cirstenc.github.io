@@ -33,6 +33,8 @@ body {
 #icons {
     color: #6abd45;
     margin-left: auto;
+    font-size: 35px;
+    justify-content: space-between;
 }
 
 #navbar-bottom {
