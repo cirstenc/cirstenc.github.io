@@ -12,13 +12,12 @@ body {
 }
 
 #sidebar-content {
-    background-color: lightblue;
     flex: 1;
     order: 2;
+    align-items: center;
 }
 
 #main-content {
-    background-color: lightgreen;
     flex: 1;
     order: 1;
 }
