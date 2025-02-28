@@ -13,6 +13,32 @@ body {
     align-items: center;
 }
 
+.menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visiblity 0.25s;
+}
+
+.menu a {
+    background-color: #a87d52;
+    border: 1px solid black;
+    width: 50%;
+    min-width: 100px;
+    padding: 10px;
+}
+
+#navbar .menu a:hover {
+    background: #079247;
+}
+
+#middle:hover .menu {
+    opacity: 1;
+    visibility: visible;
+}
+
 #navbar h1 {
     color: #6abd45;
     margin-right: auto;
@@ -26,7 +52,6 @@ body {
     color: #424242;
     display: inline-block;
     text-decoration: none;
-    padding: 12px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -35,13 +60,17 @@ body {
     background: linear-gradient(to top, #6abd45, #079247);
 }
 
+#middle i {
+    color: #424242;
+}
+
 #middle {
-    align-items: center;
+    margin-left: 70px;
 }
 
 #icons {
     color: #6abd45;
-    margin-left: auto;
+    margin-left: 50%;
     font-size: 35px;
 }
 
@@ -66,6 +95,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#hero h2 {
+    margin-right: 25px;
+    font-size: 65px;
+    margin-top: 36px;
+    color: black;
+    background-color:  #a87d52;
+    outline: 6px solid  #079247;
+}
+
+#footer {
+    text-align: center;
+    background-color: #a87d52;
+    color: #424242;
+    padding: 11px;
 }
 
 .single-column {
