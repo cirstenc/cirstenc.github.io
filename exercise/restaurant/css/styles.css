@@ -11,6 +11,7 @@ body {
     background-color: #a87d52;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .menu {
@@ -34,18 +35,13 @@ body {
     background: #079247;
 }
 
+#navbar #middle {
+    justify-content: space-between;
+}
+
 #middle:hover .menu {
     opacity: 1;
     visibility: visible;
-}
-
-#navbar h1 {
-    color: #6abd45;
-    margin-right: auto;
-    font-weight: bold;
-    font-size: 36px;
-    padding-top: 13px;
-    padding-bottom: 12px;
 }
 
 #navbar a {
@@ -53,7 +49,17 @@ body {
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
 }
 
 #middle a:hover {
@@ -64,13 +70,9 @@ body {
     color: #424242;
 }
 
-#middle {
-    margin-left: 70px;
-}
-
 #icons {
     color: #6abd45;
-    margin-left: 50%;
+    margin-left: auto;
     font-size: 35px;
 }
 
@@ -78,6 +80,7 @@ body {
     background: linear-gradient( to bottom, #6abd45, #079247);
     display: flex;
     justify-content: center;
+    padding: 4px;
 }
 
 #navbar-bottom a {
@@ -163,4 +166,67 @@ body {
     font-size: 35px;
     color: #079247;
     text-align: center;
+}
+
+#main-section,
+#section h1 {
+    text-align: center;
+    color: #a87d52;
+}
+
+@media screen and (max-width: 800px) and (min-width:480px) {
+    #navbar #logo {
+        font-size: 12px;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    #icons {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .side-by-side {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .side-by-side .text-container img {
+        width: 300px;
+        margin-right: 200px;
+    }
+
+    .side-by-side .image-container h1 {
+        font-size: 35px;
+        color: #079247;
+        text-align: center;
+        margin-right: 200px;
+    }
+
+    .image-container p {
+        color: #424242;
+        font-size: 25px;
+        text-align: center;
+        margin-right: 200px;
+    }
+
+    .image-container h2 {
+        color: #a87d52;
+        font-size: 25px;
+        text-align: center;
+        margin-right: 200px;
+    }
+
+    #hero {
+        height: 100vh;
+        width: 100%;
+    }
+
+    #hero h2 {
+        font-size: 35px;
+    }
 }
