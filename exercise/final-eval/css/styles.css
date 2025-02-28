@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+#title h4 {
+    font-size: 20px;
+    background-color: green;
+    padding: 12px;
+    border: 1px solid green;
+    width: 100%;
+}
+
+#title h3 {
+    font-size: 25px;
+    background-color: rgb(13, 13, 87);
+    padding: 12px;
+    color: white;
+}
+
+#title h1 {
+    font-size: 40px;
+}
+
+#images {
+    display: flex;
+    padding: 12px;
+    margin: 30px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+#sea {
+    justify-content: flex-start;
+    width: 50%;
+    height: 50%;
+    flex: 1;
+}
+
+#sea  h3 {
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+
+#steel {
+    justify-content: flex-end;
+    width: 50%;
+    flex: 1;
+}
+
+#steel h3 {
+    color: black;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#buttons a {
+    color: rgb(253, 251, 251);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(7, 21, 65);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid rgb(46, 27, 153);
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+
+#buttons a:hover {
+    background-color: rgb(46, 27, 153);
+    border: 3px solid  rgb(7, 21, 65);
+    color: rgb(252, 252, 252);
+}
+
+#name {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(218, 197, 10);
+}
+
+#para {
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+
+#para p {
+    background-color: rgb(197, 19, 19);
+    padding: 12px;
+    font-weight: bold;
+}
+
+.single-column { 
+    background-color: aqua;
+    width: 50%;
+    min-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
